@@ -33,7 +33,7 @@ hr {
     width:     100%;
     max-width: 960px;
   
-    margin: inherit auto;
+    margin: auto;
 }
 
 .column,
