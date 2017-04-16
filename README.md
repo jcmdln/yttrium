@@ -11,11 +11,8 @@ I highly recommend using ```Normalize``` along with ```yttrium``` to ensure cros
 
 ```HTML
 <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
-
+      href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
 <link rel="stylesheet"
-      href="https://raw.githubusercontent.com/jcmdln/yttrium/master/yttrium.css">
-      
-<script src="https://raw.githubusercontent.com/jcmdln/yttrium/master/yttrium.js"></script>
+      href="//raw.githubusercontent.com/jcmdln/yttrium/master/yttrium.css">
+<script src="//raw.githubusercontent.com/jcmdln/yttrium/master/yttrium.js"></script>
 ```
-
