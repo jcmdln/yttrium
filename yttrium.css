@@ -20,6 +20,10 @@ section {}
 article {}
 div {}
 
+card {
+    box-shadow: 0px 2px 2px 2px #e5e5e5
+}
+
 hr {
     border-radius: 4px;
     border: 1px 0 solid #eee
