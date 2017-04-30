@@ -13,6 +13,6 @@ I highly recommend using ```Normalize``` along with ```yttrium``` to ensure cros
 <link rel="stylesheet"
       href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
 <link rel="stylesheet"
-      href="//raw.githubusercontent.com/jcmdln/yttrium/master/yttrium.css">
-<script src="//raw.githubusercontent.com/jcmdln/yttrium/master/yttrium.js"></script>
+      href="//jcmdln.github.io/yttrium/yttrium.css">
+<script src="//jcmdln.github.io/yttrium//yttrium.js"></script>
 ```
