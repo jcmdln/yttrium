@@ -11,7 +11,7 @@ body {
 nav, .nav {}
 .nav-item {}
 .nav-menu {}
-.nav-menu.dropdown {}
+.dropdown {}
 
 footer, .footer {}
 .footer.item {}
@@ -156,14 +156,6 @@ pre > .code, {
 /* Utilities
 ************************************************************/
 
-.block        { display: block }
-.inline       { display: inline }
-.inline-block { display: inline-block }
-.inline-flex  { display: inline-flex }
-
-.float-left   { float: left }
-.float-right  { float: right }
-
 .container:after,
 .row:after,
 .float-clear,
@@ -173,12 +165,23 @@ pre > .code, {
     clear: both
 }
 
+.float-left   { float: left }
+.float-right  { float: right }
+
+.block        { display: block }
+.inline       { display: inline }
+.inline-block { display: inline-block }
+.inline-flex  { display: inline-flex }
+
 .margin, .mar { margin:  8px }
 .margin-auto, .mara { margin: auto }
 .margin-none, .marn { margin: 0 }
 
 .padding, .pad { padding: 8px }
 .padding-none, .padn { padding: 0 }
+
+.hide { display: none }
+.show { display: content }
 
 .list-style {}
 .list-style-type-none, .lstn { list-style-type: none }
