@@ -8,18 +8,6 @@ body {
   padding: 0;
 }
 
-nav, .nav {}
-.nav-item {}
-.nav-menu {}
-.dropdown {}
-
-footer, .footer {}
-.footer.item {}
-
-section {}
-article {}
-div {}
-
 hr {
     border-radius: 4px;
     border: 1px 0 solid #eee
@@ -122,6 +110,8 @@ pre > .code, {
 
 .decoration-none,
 .decno { text-decoration: none }
+
+.mono { font-family: 'Roboto Mono', monospace }
 
 
 /* Media
