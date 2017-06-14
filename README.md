@@ -8,7 +8,7 @@ Web development micro-framework using raw CSS & JavaScript
   - MVC tasks may use MithrilJS, though focus on using raw JavaScript
   - Long-term target of implementing the vital pieces of Bootstrap, Foundation, etc
 
-### Including
+
 ```HTML
 <link rel="stylesheet" href="//azryn.org/yttrium/yttrium.css">
 ```
