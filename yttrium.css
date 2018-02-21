@@ -1,6 +1,9 @@
 * {
-    font: 12pt/1.5 'Roboto', sans-serif;
+    font: 12pt/1.33 'Roboto', sans-serif;
+}
 
+html,
+body {
     margin:  0;
     padding: 0
 }
@@ -24,7 +27,7 @@ hr {
     margin:     auto;
 
     width:      100%;
-    max-width:  980px;
+    max-width:  80%;
     min-width:  auto
 }
 
@@ -50,12 +53,14 @@ hr {
     .twelve.columns { width: 100.0000% }
 }
 
-.margin       { margin:  8px }
+.margin       { margin: 8px }
+.margin-side  { margin: 0 8px }
 .margin-auto  { margin: auto }
 .margin-none  { margin: 0 }
 
-.padding      { padding: 8px }
-.padding-none { padding: 0 }
+.pad      { padding: 8px }
+.pad-side { padding: 0 8px }
+.pad-none { padding: 0 }
 
 
 /* List
