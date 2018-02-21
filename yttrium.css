@@ -1,40 +1,37 @@
 * {
-    font: 12pt/1.5 'Roboto', sans-serif
-}
+    font: 12pt/1.5 'Roboto', sans-serif;
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-hr {
-    border-radius: 4px;
-    border: 1px 0 solid #eee
+    margin:  0;
+    padding: 0
 }
 
 a {
     color: inherit
 }
 
+hr {
+    border:        1px 0 solid #eee;
+    border-radius: 4px;
+}
+
 
 /* Grids
-************************************************************/
+ ************************************************************/
 
 .container {
     box-sizing: border-box;
     position:   relative;
-    margin: auto;
+    margin:     auto;
 
-    width:     100%;
-    max-width: 980px;
-    min-width: auto;
+    width:      100%;
+    max-width:  device-width;
+    min-width:  auto
 }
 
 .column,
 .columns {
-    width: 100%;
-    float: left;
+    width:      100%;
+    float:      left;
     box-sizing: border-box
 }
 
@@ -53,49 +50,59 @@ a {
     .twelve.columns { width: 100.0000% }
 }
 
+.margin       { margin:  8px }
+.margin-auto  { margin: auto }
+.margin-none  { margin: 0 }
+
+.padding      { padding: 8px }
+.padding-none { padding: 0 }
+
 
 /* List
-************************************************************/
+ ************************************************************/
 
-ul { list-style: circle inside }
-ol { list-style: decimal inside }
+ul { list-style:    circle inside }
+ol { list-style:    decimal inside }
 li { margin-bottom: 1px }
 
 ul > li > a {
     background-color: transparent;
-    text-decoration: none
+    text-decoration:  none
 }
 
 ol,
 ul {
     padding-left: 0;
-    margin-top: 0
+    margin-top:   0
 }
 
 ul ul,
 ul ol,
 ol ol,
 ol ul {
-    margin: 2px 0 2px 4px;
+    margin:    2px 0 2px 4px;
     font-size: 90%
 }
 
+.list      {}
+.list-none { list-style-type: none }
+
 
 /* Text
-************************************************************/
+ ************************************************************/
 
 code,
 .code {
-    padding: 8px;
+    padding:     8px;
     white-space: nowrap;
-    background: black;
-    color: #eee;
-    font: 'Roboto Mono', monospace
+    background:  black;
+    color:       #eee;
+    font:        'Roboto Mono', monospace
 }
 
 pre > code,
-pre > .code, {
-    display: block;
+pre > .code {
+    display:     block;
     white-space: pre
 }
 
@@ -104,51 +111,51 @@ pre > .code, {
 .right  { text-align: right }
 
 .blink     { text-decoration: blink }
-.bold      { font-weight: bold }
-.italic    { font-style:  italic }
+.bold      { font-weight:     bold }
+.italic    { font-style:      italic }
+.plain     { text-decoration: none }
 .strike    { line-decoration: line-through }
 .underline { text-decoration: underline }
 
-.line-single { line-height: 1.5 }
-.line-double { line-height: 3.0 }
+.single { line-height: 100% }
+.double { line-height: 200% }
 
-.decoration-none,
-.decno { text-decoration: none }
-
-.mono { font-family: 'Roboto Mono', monospace }
+.mono  { font-family: 'Roboto Mono',  monospace }
+.sams  { font-family: 'Roboto Sans',  monospace }
+.serif { font-family: 'Roboto Serif', monospace }
 
 
 /* Media
-************************************************************/
+ ************************************************************/
 
 .image {
-    display: inline-block;
+    display:         inline-block;
     background-size: cover
 }
 
 .audio {}
 .video {}
 
-.avatar     { width: 96px; height: 96px }
-.background { width: 100%; height: 100% }
+.avatar     { width: 96px; height:    96px }
+.background { width: 100%; height:    100% }
 .banner     { width: auto; max-width: 66% }
-.icon       { width: 32px; height: 32px }
+.icon       { width: 32px; height:    32px }
 
 .media {
     background-size: cover;
-    width: 100%;
-    height: auto
+    width:           100%;
+    height:          auto
 }
 
 .media.scale {
-    position: relative;
+    position:       relative;
     padding-bottom: 100%;
-    height: 0
+    height:         0
 }
 
 
 /* Utilities
-************************************************************/
+ ************************************************************/
 
 .container:after,
 .row:after,
@@ -156,7 +163,7 @@ pre > .code, {
 .clear {
     content: "";
     display: table;
-    clear: both
+    clear:   both
 }
 
 .float-left   { float: left }
@@ -167,19 +174,19 @@ pre > .code, {
 .inline-block { display: inline-block }
 .inline-flex  { display: inline-flex }
 
-.margin, .mar { margin:  8px }
-.margin-auto, .mara { margin: auto }
-.margin-none, .marn { margin: 0 }
-
-.padding, .pad { padding: 8px }
-.padding-none, .padn { padding: 0 }
-
 .hide { display: none }
 .show { display: content }
 
-.list-style {}
-.list-style-type-none, .lstn { list-style-type: none }
+.card { box-shadow: 0px 2px 2px 2px #e5e5e5 }
 
-.card {
-    box-shadow: 0px 2px 2px 2px #e5e5e5
+.gpu {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+    backface-visibility:         hidden;
+
+    -webkit-perspective:         1000;
+    -moz-perspective:            1000;
+    -ms-perspective:             1000;
+    perspective:                 1000;
 }
