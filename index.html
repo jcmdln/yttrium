@@ -1,77 +1,96 @@
 <!doctype html>
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Content-Language" content="en_US">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Language"
+	content="en_US">
+  <meta name="viewport"
+	content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-  <link rel="stylesheet" href="//jcmdln.org/yttrium/yttrium.css">
+  <link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet"
+	href="//jcmdln.org/yttrium/yttrium.css">
 </head>
+
+<style>
+  .grid-item { background: grey; color: white }
+</style>
 
 <body>
   <section class="container pad">
     <h1 class="center">yttrium</h1>
     <h2 class="center">Web development micro-framework using raw CSS & JavaScript</h2>
-  </section>
 
-  <section class="container pad">
-    <h1 class="bold underline">Grids</h1>
-    <p>
-      yttrium uses 12-column grids for alignment, and containers can be
-      nested in other containers to build complex grid patterns.
+    <p class="pad">
+      <h3 class="bold underline">Grids</h3>
+      Grids consist of 12 columns
     </p>
 
-    <article class="twelve columns pad center">
-      <div style="background: grey; color: white">12
-    </article>
+    <div class="row center">
+      <article class="twelve columns pad">
+	<div class="grid-item">12</div>
+      </article>
+    </div>
 
+    <div class="row center">
+      <article class="one column pad">
+	<div class="grid-item">1</div>
+      </article>
 
-    <article class="one column pad center">
-      <div style="background: grey; color: white">1
-    </article>
-    <article class="eleven columns pad center">
-      <div style="background: grey; color: white">11
-    </article>
+      <article class="eleven columns pad">
+	<div class="grid-item">11</div>
+      </article>
+    </div>
 
+    <div class="row center">
+      <article class="two columns pad">
+	<div class="grid-item">2</div>
+      </article>
 
-    <article class="two columns pad center">
-      <div style="background: grey; color: white">2
-    </article>
-    <article class="ten columns pad center">
-      <div style="background: grey; color: white">10
-    </article>
+      <article class="ten columns pad">
+	<div class="grid-item">10</div>
+      </article>
+    </div>
 
+    <div class="row center">
+      <article class="three columns pad">
+	<div class="grid-item">3</div>
+      </article>
 
-    <article class="three columns pad center">
-      <div style="background: grey; color: white">3
-    </article>
-    <article class="nine columns pad center">
-      <div style="background: grey; color: white">9
-    </article>
+      <article class="nine columns pad">
+	<div class="grid-item">9</div>
+      </article>
+    </div>
 
+    <div class="row center">
+      <article class="four columns pad">
+	<div class="grid-item">4</div>
+      </article>
 
-    <article class="four columns pad center">
-      <div style="background: grey; color: white">4
-    </article>
-    <article class="eight columns pad center">
-      <div style="background: grey; color: white">8
-    </article>
+      <article class="eight columns pad">
+	<div class="grid-item">8</div>
+      </article>
+    </div>
 
+    <div class="row center">
+      <article class="five columns pad">
+	<div class="grid-item">5</div>
+      </article>
 
-    <article class="five columns pad center">
-      <div style="background: grey; color: white">5
-    </article>
-    <article class="seven columns pad center">
-      <div style="background: grey; color: white">7
-    </article>
+      <article class="seven columns pad">
+	<div class="grid-item">7</div>
+      </article>
+    </div>
 
+    <div class="row center">
+      <article class="six columns pad">
+	<div class="grid-item">6</div>
+      </article>
 
-    <article class="six columns pad center">
-      <div style="background: grey; color: white">6
-    </article>
-    <article class="six columns pad center">
-      <div style="background: grey; color: white">6
-    </article>
+      <article class="six columns pad">
+	<div class="grid-item">6</div>
+      </article>
+    </div>
 
   </section>
 </body>
