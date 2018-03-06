@@ -33,7 +33,6 @@ hr {
 
 .container:after,
 .row:after,
-.float-clear,
 .clear {
     content: "";
     display: table;
