@@ -31,6 +31,15 @@ hr {
     min-width:  auto
 }
 
+.container:after,
+.row:after,
+.float-clear,
+.clear {
+    content: "";
+    display: table;
+    clear:   both
+}
+
 .column,
 .columns {
     width:      100%;
@@ -161,15 +170,6 @@ pre > .code {
 
 /* Utilities
  ************************************************************/
-
-.container:after,
-.row:after,
-.float-clear,
-.clear {
-    content: "";
-    display: table;
-    clear:   both
-}
 
 .float-left   { float: left }
 .float-right  { float: right }
