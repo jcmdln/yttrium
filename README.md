@@ -31,7 +31,6 @@ won't have to look up the mnemonic form.
       * banner
       * icon
 * No cryptic CSS selector names
-  *
 * Infinitely nested containers
 * 12-column grid system
 * Optional media scaling while preserving aspect ratio
