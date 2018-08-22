@@ -134,8 +134,8 @@ pre > .code {
 .double { line-height: 200% }
 
 .mono  { font-family: 'Roboto Mono',  monospace }
-.sans  { font-family: 'Roboto Sans',  monospace }
-.serif { font-family: 'Roboto Serif', monospace }
+.sans  { font-family: 'Roboto Sans',  sans-serif }
+.serif { font-family: 'Roboto Serif', serif }
 
 
 /* Media
