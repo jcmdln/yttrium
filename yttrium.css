@@ -1,3 +1,7 @@
+/* yttrium.css
+ *
+ */
+
 * {
     font: 12pt/1.33 'Roboto', sans-serif;
 }
@@ -18,8 +22,9 @@ hr {
 }
 
 
-/* Grids
- ************************************************************/
+/*
+    Grids
+*/
 
 .container {
     box-sizing: border-box;
@@ -61,18 +66,10 @@ hr {
     .twelve.columns { width: 100.0000% }
 }
 
-.margin       { margin: 8px }
-.margin-side  { margin: 0 8px }
-.margin-auto  { margin: auto }
-.margin-none  { margin: 0 }
 
-.pad      { padding: 8px }
-.pad-side { padding: 0 8px }
-.pad-none { padding: 0 }
-
-
-/* List
- ************************************************************/
+/*
+    List
+*/
 
 ul { list-style:    circle inside }
 ol { list-style:    decimal inside }
@@ -97,12 +94,26 @@ ol ul {
     font-size: 90%
 }
 
-.list      {}
 .list-none { list-style-type: none }
 
 
-/* Text
- ************************************************************/
+/*
+    Text
+*/
+
+.mono      { font-family: 'Roboto Mono',  monospace }
+.sans      { font-family: 'Roboto Sans',  sans-serif }
+.serif     { font-family: 'Roboto Serif', serif }
+
+.single    { line-height: 100% }
+.double    { line-height: 200% }
+
+.blink     { text-decoration: blink }
+.bold      { font-weight:     bold }
+.italic    { font-style:      italic }
+.plain     { text-decoration: none }
+.strike    { line-decoration: line-through }
+.underline { text-decoration: underline }
 
 code,
 .code {
@@ -119,35 +130,16 @@ pre > .code {
     white-space: pre
 }
 
-.center { text-align: center; margin: auto }
-.left   { text-align: left }
-.right  { text-align: right }
-
-.blink     { text-decoration: blink }
-.bold      { font-weight:     bold }
-.italic    { font-style:      italic }
-.plain     { text-decoration: none }
-.strike    { line-decoration: line-through }
-.underline { text-decoration: underline }
-
-.single { line-height: 100% }
-.double { line-height: 200% }
-
-.mono  { font-family: 'Roboto Mono',  monospace }
-.sans  { font-family: 'Roboto Sans',  sans-serif }
-.serif { font-family: 'Roboto Serif', serif }
 
 
-/* Media
- ************************************************************/
+/*
+    Media
+*/
 
 .image {
     display:         inline-block;
     background-size: cover
 }
-
-.audio {}
-.video {}
 
 .avatar     { width: 96px; height:    96px }
 .background { width: 100%; height:    100% }
@@ -167,22 +159,45 @@ pre > .code {
 }
 
 
-/* Utilities
- ************************************************************/
+/*
+    Utilities
+*/
+
+.center { text-align: center; margin: auto }
+.left   { text-align: left }
+.right  { text-align: right }
+
+.block        { display: block }
+.hide         { display: none }
+.inline       { display: inline }
+.inline-block { display: inline-block }
+.inline-flex  { display: inline-flex }
+.show         { display: content }
 
 .float-left   { float: left }
 .float-right  { float: right }
 
-.block        { display: block }
-.inline       { display: inline }
-.inline-block { display: inline-block }
-.inline-flex  { display: inline-flex }
+.margin       { margin: 8px }
+.margin-sides { margin: inherit 8px }
+.margin-auto  { margin: auto }
+.margin-none  { margin: 0 }
 
-.hide { display: none }
-.show { display: content }
+.pad,
+.padding       { padding: 8px }
+.pad-sides,
+.padding-sides { padding: inherit 8px }
+.pad-none,
+.padding-none  { padding: 0 }
 
+
+/*
+    Extras
+*/
+
+/* mimic material-design cards */
 .card { box-shadow: 0px 2px 2px 2px #e5e5e5 }
 
+/* force gpu accelleration */
 .gpu {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility:    hidden;
